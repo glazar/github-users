@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserCard component renders user data properly 1`] = `
+<Component
+  user={
+    Object {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/4364303?v=4",
+      "html_url": "https://github.com/glazar",
+      "id": 1,
+      "login": "glazar",
+    }
+  }
+>
+  <p>
+    ID: 
+    <span
+      className="badge badge-info pl-1 pr-1"
+    >
+      1
+    </span>
+  </p>
+  <p>
+    URL:
+    <a
+      className="nav-link d-inline pl-1 pr-1"
+      href="https://github.com/glazar"
+      target="_blank"
+    >
+      <span
+        className="badge badge-info"
+      >
+         
+        https://github.com/glazar
+      </span>
+    </a>
+  </p>
+</Component>
+`;

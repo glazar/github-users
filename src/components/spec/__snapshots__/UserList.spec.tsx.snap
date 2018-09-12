@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserCardList renders user data properly 1`] = `
+<ListGroup
+  bsClass="list-group"
+  className="border-0"
+>
+  <ListGroupItem
+    bsClass="list-group-item"
+    className="border-0"
+    key="1"
+    listItem={false}
+  >
+    <UserCard
+      user={
+        Object {
+          "avatar_url": "https://avatars3.githubusercontent.com/u/4364303?v=4",
+          "html_url": "https://github.com/glazar",
+          "id": 1,
+          "login": "glazar",
+        }
+      }
+    />
+  </ListGroupItem>
+</ListGroup>
+`;
